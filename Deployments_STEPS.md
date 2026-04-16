@@ -16,9 +16,7 @@ This guide outlines exactly how to deploy the Spring Boot Banking System to Rend
 ## 2. Configure Service Settings
 
 - **Name**: `banking-api-backend` (or whatever you prefer)
-- **Environment**: **Native Environment** (`Java`) (Do NOT select Docker unless you intend to add a Dockerfile).
-- **Build Command**: `mvn clean package -DskipTests`
-- **Start Command**: `java -jar target/app.jar`
+- **Environment**: **Docker** (Render will automatically detect the `Dockerfile` at the root of the repository).
 
 ## 3. Configure Environment Variables
 
